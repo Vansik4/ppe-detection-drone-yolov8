@@ -1,0 +1,44 @@
+============================================================
+RESULTADOS DE SIMULACIÓN DE ROBUSTEZ
+Proyecto: Holder de Cámara para Dron
+Algoritmo: YOLO v26
+============================================================
+
+Imágenes de prueba: 2
+Umbral de confianza YOLO: 0.25
+Tipos de ruido evaluados: 4
+Total de evaluaciones: 66
+
+--- Detecciones en imagen limpia (baseline) ---
+  Promedio de detecciones: 4.0
+  Confianza promedio: 0.789
+
+--- Umbrales críticos (retención < 80%) ---
+  Gaussiano: retención < 80% en sigma = 70
+  Motion Blur: retención < 80% en kernel = 15
+  Sal y Pimienta: retención < 80% en probabilidad = 0.25
+  Brillo: mantiene > 80% en todos los niveles
+
+--- Umbrales críticos (retención < 50%) ---
+  Gaussiano: mantiene > 50% en todos los niveles
+  Motion Blur: mantiene > 50% en todos los niveles
+  Sal y Pimienta: mantiene > 50% en todos los niveles
+  Brillo: mantiene > 50% en todos los niveles
+
+============================================================
+CONCLUSIÓN DE VIABILIDAD
+============================================================
+
+El algoritmo YOLO muestra alta robustez ante: Brillo.
+Se identifica sensibilidad ante: Gaussiano, Motion Blur, Sal y Pimienta.
+
+El sistema de visión por computadora del dron es viable para
+operación bajo condiciones nominales de vuelo. Se recomienda
+implementar filtros de preprocesamiento para los tipos de ruido
+donde se observó mayor degradación, y mantener condiciones de
+iluminación controladas para maximizar la confiabilidad de detección.
+
+El error de medición se considera ACEPTABLE dentro de los rangos
+operativos normales del dron (ruido moderado, vibración controlada,
+iluminación diurna). Para condiciones extremas, se sugieren mejoras
+en estabilización de imagen o uso de modelos más robustos (YOLO XL).

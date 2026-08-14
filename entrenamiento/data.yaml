@@ -1,0 +1,16 @@
+# Descarga el dataset desde la URL de Roboflow indicada abajo (formato YOLOv8)
+# y ajusta "path" a la carpeta donde lo descargues localmente.
+path: ./Hardhat.v1i.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['hardhat', 'vest']
+
+roboflow:
+  workspace: luanvan-wgmqx
+  project: hardhat-umya7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/luanvan-wgmqx/hardhat-umya7/dataset/1

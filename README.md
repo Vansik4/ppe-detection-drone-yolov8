@@ -1,15 +1,37 @@
-# Detección de EPP mediante drones y Deep Learning (YOLOv8)
+<p align="center">
+  <img src="assets/logo_ub.png" alt="Institución Universitaria de Barranquilla" width="140">
+</p>
+
+<h1 align="center">Detección de EPP mediante drones y Deep Learning (YOLOv8)</h1>
+
+<p align="center"><b>Proyecto de grado — Ingeniería Mecatrónica</b><br>
+Institución Universitaria de Barranquilla</p>
+
+---
+
+**Título:** Implementación de un sistema de visión artificial mediante drones
+y Deep Learning para la detección automática de elementos de protección
+personal en entornos industriales
+
+**Autores:** Bayron Gil · Liznel Grimaldo · Sergio Olivo
+
+**Asesores técnicos:** Vladimir Cudris · Leopoldo Laborde
+
+**Programa:** Ingeniería Mecatrónica — Institución Universitaria de Barranquilla, 2026
+
+---
 
 Sistema de visión artificial que usa un dron DJI Mini 4K y modelos YOLOv8 para
 detectar en tiempo real el uso de casco y chaleco reflectivo por parte de
 trabajadores, con envío automático de alertas por correo ante incumplimientos.
 
-Proyecto Capstone — Ingeniería Mecatrónica, Institución Universitaria de
-Barranquilla. Este repositorio es el Anexo B (código fuente) de la tesis.
+Este repositorio contiene el código fuente completo del proyecto de grado y
+corresponde al Anexo B de la tesis (código fuente documentado y comentado).
 
 ## Estructura del repositorio
 
 ```
+assets/                     Logo institucional usado en este README
 src/                        Código de la aplicación
   ppe_monitor.py             Programa principal: detección + lógica de cumplimiento + alertas SMTP
   detect_webcam.py           Pruebas de detección sobre cámara web / video local

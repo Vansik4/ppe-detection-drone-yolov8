@@ -1,0 +1,133 @@
+modelo,tipo_ruido,parametro,nivel,imagen,detecciones_base,detecciones,confianza_promedio,confianza_maxima,iou_promedio,retencion_pct
+YOLO26-Nano,Gaussiano,sigma,0,bus.jpg,5,5,0.8203,0.9242,1.0,100.0
+YOLO26-Nano,Gaussiano,sigma,5,bus.jpg,5,5,0.7947,0.9295,0.9513,100.0
+YOLO26-Nano,Gaussiano,sigma,10,bus.jpg,5,5,0.8023,0.9263,0.9279,100.0
+YOLO26-Nano,Gaussiano,sigma,20,bus.jpg,5,5,0.7487,0.9055,0.9261,100.0
+YOLO26-Nano,Gaussiano,sigma,30,bus.jpg,5,5,0.7257,0.9018,0.9029,100.0
+YOLO26-Nano,Gaussiano,sigma,50,bus.jpg,5,5,0.6203,0.8567,0.8919,100.0
+YOLO26-Nano,Gaussiano,sigma,70,bus.jpg,5,4,0.6097,0.8509,0.9295,80.0
+YOLO26-Nano,Gaussiano,sigma,100,bus.jpg,5,3,0.4188,0.5818,0.6035,60.0
+YOLO26-Nano,Gaussiano,sigma,0,zidane.jpg,3,3,0.7575,0.9426,1.0,100.0
+YOLO26-Nano,Gaussiano,sigma,5,zidane.jpg,3,3,0.7405,0.9431,0.9907,100.0
+YOLO26-Nano,Gaussiano,sigma,10,zidane.jpg,3,3,0.736,0.9407,0.9585,100.0
+YOLO26-Nano,Gaussiano,sigma,20,zidane.jpg,3,3,0.7667,0.936,0.9619,100.0
+YOLO26-Nano,Gaussiano,sigma,30,zidane.jpg,3,3,0.7044,0.9322,0.9443,100.0
+YOLO26-Nano,Gaussiano,sigma,50,zidane.jpg,3,3,0.6863,0.9066,0.6371,100.0
+YOLO26-Nano,Gaussiano,sigma,70,zidane.jpg,3,2,0.8512,0.8753,0.9537,66.67
+YOLO26-Nano,Gaussiano,sigma,100,zidane.jpg,3,3,0.4595,0.605,0.6851,100.0
+YOLO26-Nano,Motion Blur,kernel,1,bus.jpg,5,5,0.8203,0.9242,1.0,100.0
+YOLO26-Nano,Motion Blur,kernel,3,bus.jpg,5,5,0.8166,0.9219,0.9803,100.0
+YOLO26-Nano,Motion Blur,kernel,5,bus.jpg,5,5,0.8007,0.9186,0.9569,100.0
+YOLO26-Nano,Motion Blur,kernel,9,bus.jpg,5,5,0.7298,0.9109,0.9251,100.0
+YOLO26-Nano,Motion Blur,kernel,15,bus.jpg,5,4,0.7509,0.9013,0.9202,80.0
+YOLO26-Nano,Motion Blur,kernel,21,bus.jpg,5,6,0.5363,0.8779,0.9084,120.0
+YOLO26-Nano,Motion Blur,kernel,31,bus.jpg,5,4,0.6832,0.8114,0.8143,80.0
+YOLO26-Nano,Motion Blur,kernel,45,bus.jpg,5,4,0.4788,0.731,0.7774,80.0
+YOLO26-Nano,Motion Blur,kernel,1,zidane.jpg,3,3,0.7575,0.9426,1.0,100.0
+YOLO26-Nano,Motion Blur,kernel,3,zidane.jpg,3,3,0.7438,0.942,0.9967,100.0
+YOLO26-Nano,Motion Blur,kernel,5,zidane.jpg,3,3,0.7123,0.9415,0.9926,100.0
+YOLO26-Nano,Motion Blur,kernel,9,zidane.jpg,3,2,0.9219,0.9432,0.9913,66.67
+YOLO26-Nano,Motion Blur,kernel,15,zidane.jpg,3,2,0.923,0.9399,0.9758,66.67
+YOLO26-Nano,Motion Blur,kernel,21,zidane.jpg,3,2,0.907,0.9135,0.9716,66.67
+YOLO26-Nano,Motion Blur,kernel,31,zidane.jpg,3,2,0.8857,0.8953,0.9533,66.67
+YOLO26-Nano,Motion Blur,kernel,45,zidane.jpg,3,2,0.7583,0.7936,0.926,66.67
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.0,bus.jpg,5,5,0.8203,0.9242,1.0,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.01,bus.jpg,5,5,0.7967,0.8986,0.9754,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.03,bus.jpg,5,5,0.6555,0.9026,0.9667,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.05,bus.jpg,5,5,0.5919,0.8829,0.9482,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.1,bus.jpg,5,4,0.6288,0.8485,0.4987,80.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.15,bus.jpg,5,3,0.6597,0.8255,0.3708,60.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.25,bus.jpg,5,2,0.5573,0.6597,0.0851,40.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.4,bus.jpg,5,1,0.2644,0.2644,0.0954,20.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.0,zidane.jpg,3,3,0.7575,0.9426,1.0,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.01,zidane.jpg,3,2,0.9338,0.9382,0.9816,66.67
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.03,zidane.jpg,3,2,0.9295,0.932,0.9626,66.67
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.05,zidane.jpg,3,3,0.7067,0.9261,0.9508,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.1,zidane.jpg,3,3,0.7466,0.9283,0.9389,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.15,zidane.jpg,3,3,0.5454,0.9275,0.9606,100.0
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.25,zidane.jpg,3,2,0.7862,0.8063,0.925,66.67
+YOLO26-Nano,Sal y Pimienta,probabilidad,0.4,zidane.jpg,3,3,0.4312,0.7267,0.9139,100.0
+YOLO26-Nano,Brillo,delta,-100,bus.jpg,5,5,0.6587,0.8992,0.9149,100.0
+YOLO26-Nano,Brillo,delta,-70,bus.jpg,5,5,0.7425,0.9142,0.9252,100.0
+YOLO26-Nano,Brillo,delta,-50,bus.jpg,5,5,0.7799,0.92,0.94,100.0
+YOLO26-Nano,Brillo,delta,-30,bus.jpg,5,5,0.8055,0.9247,0.9577,100.0
+YOLO26-Nano,Brillo,delta,0,bus.jpg,5,5,0.8203,0.9242,1.0,100.0
+YOLO26-Nano,Brillo,delta,30,bus.jpg,5,5,0.8135,0.9146,0.9479,100.0
+YOLO26-Nano,Brillo,delta,50,bus.jpg,5,5,0.8063,0.9088,0.9385,100.0
+YOLO26-Nano,Brillo,delta,70,bus.jpg,5,5,0.7953,0.9016,0.9366,100.0
+YOLO26-Nano,Brillo,delta,100,bus.jpg,5,5,0.7725,0.8992,0.9426,100.0
+YOLO26-Nano,Brillo,delta,-100,zidane.jpg,3,2,0.8821,0.8887,0.951,66.67
+YOLO26-Nano,Brillo,delta,-70,zidane.jpg,3,2,0.921,0.9343,0.9841,66.67
+YOLO26-Nano,Brillo,delta,-50,zidane.jpg,3,3,0.719,0.9409,0.9725,100.0
+YOLO26-Nano,Brillo,delta,-30,zidane.jpg,3,2,0.9387,0.9479,0.988,66.67
+YOLO26-Nano,Brillo,delta,0,zidane.jpg,3,3,0.7575,0.9426,1.0,100.0
+YOLO26-Nano,Brillo,delta,30,zidane.jpg,3,3,0.7121,0.9368,0.9879,100.0
+YOLO26-Nano,Brillo,delta,50,zidane.jpg,3,3,0.6932,0.9372,0.9863,100.0
+YOLO26-Nano,Brillo,delta,70,zidane.jpg,3,3,0.6819,0.9279,0.9753,100.0
+YOLO26-Nano,Brillo,delta,100,zidane.jpg,3,4,0.5595,0.9335,0.9621,133.33
+YOLO26-XL,Gaussiano,sigma,0,bus.jpg,5,5,0.8233,0.9441,1.0,100.0
+YOLO26-XL,Gaussiano,sigma,5,bus.jpg,5,5,0.8422,0.9413,0.9931,100.0
+YOLO26-XL,Gaussiano,sigma,10,bus.jpg,5,5,0.7927,0.9441,0.9873,100.0
+YOLO26-XL,Gaussiano,sigma,20,bus.jpg,5,5,0.8129,0.9393,0.9806,100.0
+YOLO26-XL,Gaussiano,sigma,30,bus.jpg,5,6,0.6802,0.9437,0.9412,120.0
+YOLO26-XL,Gaussiano,sigma,50,bus.jpg,5,5,0.7655,0.938,0.9408,100.0
+YOLO26-XL,Gaussiano,sigma,70,bus.jpg,5,4,0.7768,0.9288,0.8985,80.0
+YOLO26-XL,Gaussiano,sigma,100,bus.jpg,5,5,0.5639,0.9292,0.8974,100.0
+YOLO26-XL,Gaussiano,sigma,0,zidane.jpg,5,5,0.6545,0.9592,1.0,100.0
+YOLO26-XL,Gaussiano,sigma,5,zidane.jpg,5,4,0.7659,0.9619,0.9598,80.0
+YOLO26-XL,Gaussiano,sigma,10,zidane.jpg,5,4,0.861,0.9629,0.9553,80.0
+YOLO26-XL,Gaussiano,sigma,20,zidane.jpg,5,4,0.7559,0.957,0.9583,80.0
+YOLO26-XL,Gaussiano,sigma,30,zidane.jpg,5,5,0.7098,0.9596,0.9365,100.0
+YOLO26-XL,Gaussiano,sigma,50,zidane.jpg,5,5,0.6999,0.956,0.9467,100.0
+YOLO26-XL,Gaussiano,sigma,70,zidane.jpg,5,5,0.6461,0.9514,0.9307,100.0
+YOLO26-XL,Gaussiano,sigma,100,zidane.jpg,5,4,0.7207,0.9472,0.8804,80.0
+YOLO26-XL,Motion Blur,kernel,1,bus.jpg,5,5,0.8233,0.9441,1.0,100.0
+YOLO26-XL,Motion Blur,kernel,3,bus.jpg,5,5,0.8401,0.9423,0.9904,100.0
+YOLO26-XL,Motion Blur,kernel,5,bus.jpg,5,5,0.8415,0.9383,0.9872,100.0
+YOLO26-XL,Motion Blur,kernel,9,bus.jpg,5,4,0.8972,0.9313,0.9801,80.0
+YOLO26-XL,Motion Blur,kernel,15,bus.jpg,5,4,0.8018,0.9248,0.9429,80.0
+YOLO26-XL,Motion Blur,kernel,21,bus.jpg,5,3,0.8482,0.9157,0.9172,60.0
+YOLO26-XL,Motion Blur,kernel,31,bus.jpg,5,3,0.8296,0.8707,0.8976,60.0
+YOLO26-XL,Motion Blur,kernel,45,bus.jpg,5,3,0.7315,0.8149,0.8586,60.0
+YOLO26-XL,Motion Blur,kernel,1,zidane.jpg,5,5,0.6545,0.9592,1.0,100.0
+YOLO26-XL,Motion Blur,kernel,3,zidane.jpg,5,5,0.6521,0.9618,0.9759,100.0
+YOLO26-XL,Motion Blur,kernel,5,zidane.jpg,5,4,0.7116,0.9543,0.9695,80.0
+YOLO26-XL,Motion Blur,kernel,9,zidane.jpg,5,4,0.6983,0.9649,0.963,80.0
+YOLO26-XL,Motion Blur,kernel,15,zidane.jpg,5,2,0.9469,0.954,0.9822,40.0
+YOLO26-XL,Motion Blur,kernel,21,zidane.jpg,5,3,0.7446,0.9588,0.6698,60.0
+YOLO26-XL,Motion Blur,kernel,31,zidane.jpg,5,2,0.9453,0.9629,0.9773,40.0
+YOLO26-XL,Motion Blur,kernel,45,zidane.jpg,5,2,0.939,0.9581,0.9607,40.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.0,bus.jpg,5,5,0.8233,0.9441,1.0,100.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.01,bus.jpg,5,6,0.7229,0.9403,0.9779,120.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.03,bus.jpg,5,5,0.7783,0.9427,0.9614,100.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.05,bus.jpg,5,5,0.7339,0.9288,0.9741,100.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.1,bus.jpg,5,5,0.7109,0.9275,0.9288,100.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.15,bus.jpg,5,5,0.7077,0.8996,0.9586,100.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.25,bus.jpg,5,6,0.5933,0.9253,0.9361,120.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.4,bus.jpg,5,4,0.6876,0.9065,0.6694,80.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.0,zidane.jpg,5,5,0.6545,0.9592,1.0,100.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.01,zidane.jpg,5,4,0.7143,0.9599,0.9684,80.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.03,zidane.jpg,5,4,0.7824,0.9463,0.9499,80.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.05,zidane.jpg,5,4,0.7494,0.9478,0.9474,80.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.1,zidane.jpg,5,4,0.6418,0.9485,0.7522,80.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.15,zidane.jpg,5,4,0.6416,0.9464,0.8116,80.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.25,zidane.jpg,5,3,0.84,0.9362,0.9481,60.0
+YOLO26-XL,Sal y Pimienta,probabilidad,0.4,zidane.jpg,5,4,0.5612,0.8998,0.6947,80.0
+YOLO26-XL,Brillo,delta,-100,bus.jpg,5,5,0.7898,0.9268,0.9566,100.0
+YOLO26-XL,Brillo,delta,-70,bus.jpg,5,5,0.805,0.9267,0.9635,100.0
+YOLO26-XL,Brillo,delta,-50,bus.jpg,5,5,0.776,0.9297,0.9798,100.0
+YOLO26-XL,Brillo,delta,-30,bus.jpg,5,4,0.8992,0.9423,0.99,80.0
+YOLO26-XL,Brillo,delta,0,bus.jpg,5,5,0.8233,0.9441,1.0,100.0
+YOLO26-XL,Brillo,delta,30,bus.jpg,5,5,0.8099,0.9441,0.9955,100.0
+YOLO26-XL,Brillo,delta,50,bus.jpg,5,5,0.8155,0.9494,0.9932,100.0
+YOLO26-XL,Brillo,delta,70,bus.jpg,5,5,0.8147,0.9501,0.9909,100.0
+YOLO26-XL,Brillo,delta,100,bus.jpg,5,5,0.7709,0.9449,0.9894,100.0
+YOLO26-XL,Brillo,delta,-100,zidane.jpg,5,4,0.6072,0.9513,0.8116,80.0
+YOLO26-XL,Brillo,delta,-70,zidane.jpg,5,4,0.6431,0.9592,0.8513,80.0
+YOLO26-XL,Brillo,delta,-50,zidane.jpg,5,3,0.8402,0.9608,0.8618,60.0
+YOLO26-XL,Brillo,delta,-30,zidane.jpg,5,5,0.6789,0.947,0.7668,100.0
+YOLO26-XL,Brillo,delta,0,zidane.jpg,5,5,0.6545,0.9592,1.0,100.0
+YOLO26-XL,Brillo,delta,30,zidane.jpg,5,5,0.6275,0.9587,0.9906,100.0
+YOLO26-XL,Brillo,delta,50,zidane.jpg,5,4,0.7228,0.9594,0.9754,80.0
+YOLO26-XL,Brillo,delta,70,zidane.jpg,5,4,0.7192,0.9596,0.9673,80.0
+YOLO26-XL,Brillo,delta,100,zidane.jpg,5,4,0.7452,0.96,0.9577,80.0
