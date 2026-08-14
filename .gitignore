@@ -1,0 +1,25 @@
+# Secretos - NUNCA subir credenciales reales
+.env
+src/.env
+
+# Entornos virtuales
+.venv/
+venv/
+yolo_env/
+__pycache__/
+*.pyc
+
+# Dataset completo (descargar desde la URL indicada en entrenamiento/data.yaml)
+entrenamiento/Hardhat.v1i.yolov8/
+
+# Pesos preentrenados de proposito general (Ultralytics los descarga solos)
+yolov8n.pt
+yolov8s.pt
+yolo26n.pt
+yolo26x.pt
+
+# Archivos temporales del sistema/editor
+.history/
+*.log.tmp
+.DS_Store
+Thumbs.db
